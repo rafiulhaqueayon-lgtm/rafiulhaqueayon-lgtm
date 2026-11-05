@@ -1,0 +1,8 @@
+FORMULA SAE PROJECT
+formula-sae-japan-2025.html: Project copy, ordered galleries, awards, and native video players.
+style.css: Shared theme plus scoped Formula SAE layout rules at the end.
+assets/img/formula-sae/: All 27 original photographs and 2 original videos, unchanged.
+index.html: Linked Formula Student card and corrected EV overall result.
+
+Verification: Original media hashes matched the supplied manifest. All local media/navigation references passed. Edge checks at 360, 768, and 1280 pixels found no horizontal overflow or broken images. Both MP4 files played successfully without browser errors.
+Content uses the owner's supplied package. Participation figures, exclusivity claims, roles, and results were not independently verified.

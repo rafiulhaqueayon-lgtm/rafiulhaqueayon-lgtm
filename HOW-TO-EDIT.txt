@@ -1,0 +1,32 @@
+HOW TO EDIT
+index.html: Biography, experience, projects, awards, contact details, and SEO metadata.
+style.css: Colors and fonts in :root at the top; section and responsive layout styles below.
+script.js: Navigation, tabs, animations, and email drafts.
+assets/R_Rafiul_Haque_Ayon_CV.pdf: Replace your CV using the same filename.
+assets/img/profile.png: Original portrait.
+
+Project photos expected in assets/img/: project-ev.jpg, project-wheelchair.jpg, project-aircampus.jpg.
+Replace the matching project-placeholder div with a project-img div containing an img with the appropriate src, descriptive alt text, and loading="lazy".
+Optional award photos: award-formula-sae-pr.jpg, award-undp.jpg, award-hult-prize.jpg, award-cognizant.jpg. Gallery implementation awaits these photos.
+Upload this folder's contents to GitHub Pages. No build step required.
+The contact form opens an email draft and does not send mail directly.
+Add og:url and an absolute og:image URL when your final public website address is known.
+
+AIR CAMPUS PROJECT PAGE
+undp-project.html controls the six ordered sections, captions, contributions, and report links.
+assets/img/air-campus/ contains optimized images. Filenames 01-01 through 06-03 match section and photo order. cover.webp is the selected cover photograph.
+assets/Air-Campus-Report.pdf is the supplied campaign report.
+Click the Air Campus card on the home page to open the detail page. Gallery images open at full size in a new tab.
+
+PHOTO GALLERY
+photo-gallery.html controls the standalone gallery linked from the main navigation.
+assets/img/photo-gallery/01.jpg through 11.jpg are the unchanged supplied photographs in upload order.
+Gallery styles are at the end of style.css. Images open at full size in a new tab.
+Photo 12: assets/img/photo-gallery/12.png is the original Crackerjack 2.0 group photograph.
+
+WHEELCHAIR-BED PROJECT
+wheelchair-bed.html: approved overview, embedded PDF, report actions, and three exact photo captions.
+assets/img/wheelchair-bed/: four unchanged original images.
+assets/report/wheelchair-bed-final-report.pdf: complete unchanged 60-page report.
+The embedded viewer uses the browser's native PDF support. View Full Project Report and Download PDF remain available on browsers without embedded PDF support.
+Verified: image loading and no horizontal overflow at 360/768/1280 pixels, homepage/back navigation, relative file paths, and original asset hashes. Native PDF rendering could not be visually confirmed in the headless browser.
